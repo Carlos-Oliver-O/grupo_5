@@ -15,3 +15,4 @@ else
   message = "Has perdido"
 
 message >> ${nombre}/ganador.txt
+hol
