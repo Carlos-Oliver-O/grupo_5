@@ -1,5 +1,12 @@
 #!/bin/bash 
 # muestra parametro 
-echo "El primer parámetro es ${Carlos}"
-echo "El primer parámetro es ${Alejandro}"
-echo "El primer parámetro es ${Coke}"
+
+nombre1 = $1
+
+
+echo "El primer parámetro es ${nombre1}"
+
+
+chmod +x equipo_ganador.sh
+
+./equipo_ganador.sh 
