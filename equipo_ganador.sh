@@ -25,5 +25,13 @@ if [ $? -eq 0 ]; then
   fi
 
 else
+<<<<<<< Updated upstream
   echo "Error al crear la carpeta '$1'."
 fi
+=======
+  message = "Has perdido"
+
+message >> ${nombre}/ganador.txt
+hol
+ewfowwr
+>>>>>>> Stashed changes
