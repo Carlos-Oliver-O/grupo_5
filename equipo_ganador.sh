@@ -9,10 +9,11 @@ echo "El primer parámetro es ${nombre}"
 
 minute_stamp = $(date +"%M")
 
-if (( minute_stamp % 2 == 0 )); then
+if [ minute_stamp % 2 == 0 ]
+then
   message = "Has ganado"
 else
   message = "Has perdido"
+fi
 
 message >> ${nombre}/ganador.txt
-hol
